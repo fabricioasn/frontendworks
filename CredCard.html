@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exerc&iacute;cio de HTML</title>
+        <style type="text/css">
+            .flutuante{
+             float: left;   
+            }
+            .limpar{
+             clear: both;   
+            }
+             #labels{
+              font-size: 20;
+              font-family: "Trebuchet MS", Helvetica, sans-serif  ;  
+             }
+
+        </style>
+
+    </head>
+    <body>
+        /*&ccedil*/ 
+    	<section > 
+            <header>
+                <hgroup>
+                    <img src="logo-unicarioca1.png" class="flutuante">
+                    <h2>CART&Atilde;O DE CR&Eacute;DITO </h2>
+                    <font face="verdana" ><i><span> Fabricio Almeida </span></i></font>
+                </hgroup>
+                                          
+            </header>
+            
+            <section > 
+    
+                        <img class="flutuante" src="credito.png">
+  
+                
+                <article class="limpar">                 
+                  
+                         <h2> <strong>CARTÃO DE CRÉDITO</strong> </h2>
+                        <p> Cartão de crédito é uma forma de pagamento eletrônico. É um cartão
+de plástico que pode conter ou não um chip e apresenta na frente o
+nome do portador, número do cartão e data de validade (pelo menos)
+e, no verso, um campo para assinatura do cliente, o número de
+segurança (CVV) e a tarja magnética (geralmente preta). A maioria de
+cartões de crédito tem forma e tamanho padronizados, como
+especificado pelo padrão do ISO 7810.
+O cartão de crédito pode ser usado como meio de pagamento para comprar um bem ou contratar um
+serviço. O titular recebe mensalmente no endereço indicado a fatura para pagamento e pode escolher pagar
+o total cobrado, somente o mínimo ou algum valor intermediário, postergando o pagamento do restante
+para o mês seguinte mediante cobrança de juros. </p>
+
+                </article>
+                
+                <form>
+                    <label id="labels">NÚMERO DO CARTÃO: </label><input type="number" name="numcard">
+                    <label id="labels">NOME DO CARTÃO: </label><input type="text" name="namecard">
+                    <label id="labels">VALIDADE: </label><input type="text" name="cardexpires" >
+                    <label id="labels">CVV(CÓD DE SEGURANÇA): </label><input type="number" min="3" max="3" name="codseg" >
+
+                </form>
+                
+            </section>
+
+        <footer> 
+
+           <div class="line"></div>
+           
+           <p>Desenvolvimento de Aplica&ccedil;&otilde;es Web - Prof Anderson</p>
+        </footer>
+            
+		</section>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
