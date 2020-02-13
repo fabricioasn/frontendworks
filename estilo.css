@@ -1,27 +1,32 @@
- *{
-   margin: 0;
-   padding: 0;
-
-
-}
-
 body {
-     font-size: 16
-     font-family: "Trebuchet MS", Helvetica, sans-serif  ;
-     background-color: #f3f3f3;   
-
+	background-color :than;
 
 }
 
-#nav {
-     background:  #fff;  
-     border-bottom: 1px solid #d8d8d8;
-     height: 45px;     
+h1 {
+	color: maroon;	
 }
 
-#area{
+hr {
+    color: navy;
+	
+}
 
-	width: 720px;
-	margin: 0 auto;
-	border: 1px solid red;  
+p {
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+a: link {
+	color: green;	
+}
+
+a:visited {
+	color: yellow;
+}
+a:hover {
+	color: black;
+}
+a:active {
+	color: blude;
 }
