@@ -1,0 +1,27 @@
+ *{
+   margin: 0;
+   padding: 0;
+
+
+}
+
+body {
+     font-size: 16
+     font-family: "Trebuchet MS", Helvetica, sans-serif  ;
+     background-color: #f3f3f3;   
+
+
+}
+
+#nav {
+     background:  #fff;  
+     border-bottom: 1px solid #d8d8d8;
+     height: 45px;     
+}
+
+#area{
+
+	width: 720px;
+	margin: 0 auto;
+	border: 1px solid red;  
+}
